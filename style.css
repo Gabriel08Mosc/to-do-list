@@ -116,3 +116,20 @@ li{
     transform: scale(0.95);
     background-color: rgb(184, 182, 182);
 }
+@media (max-width: 600px) {
+  li {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .INPlist {
+    margin-left: 0;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .removeLi {
+    align-self: flex-end;
+    width: fit-content;
+  }
+}
